@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>系統註冊-病患資訊查詢系統</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="../css/login.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>註冊</title>
+            <script>
+                function validateForm() {
+                    var x = document.forms["registerForm"]["password"].value;
+                    var y = document.forms["registerForm"]["password_check"].value;
+                    if(x.length<6){
+                        alert("密碼長度不足");
+                        return false;
+                    }
+                    if(x != y){
+                        alert("請確認密碼是否輸入正確");
+                        return false;
+                    }
+                }
+            </script>
+    </head>
+    <body>
+        <div class="register">
+            <form class="form" action="register.php" method="post" onsubmit="return validateForm()">
+                <h2>註冊介面</h2>
+                <div class="loginGroup">
+                    <h5>帳號</h5>
+                    <input type="text" name="username" placeholder="請輸入帳號">
+                </div>
+                <div class="loginGroup">
+                    <h5>密碼</h5>
+                    <input type="password" name="password" placeholder="請輸入密碼">
+                </div>
+                <div class="loginGroup">
+                    <h5>確認密碼</h5>
+                    <input type="password" name="password_check" placeholder="請輸入密碼" id="password_check">
+                </div>
+                <br>
+                <div class="btnGroup">
+                    <button type="submit" name="submit" class="btnAccess">註冊</button>
+                    <a href="register.html">
+                        <button type="reset" name="reset" class="btnCancel">重設</button>
+                    </a> 
+                </div>
+            </form>
+        </div>      
+    </body>
+</html>

@@ -1,0 +1,129 @@
+#wrapper {
+    width:60%;
+}
+
+#header{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+}
+
+#title{
+    text-align: left;
+    width:80%;
+    color:black;
+    font-size: 30px;
+}
+
+#login{
+    text-align: right;
+    width:20%;
+    color:black;
+    font-size: 20px;
+
+}
+
+#ward{
+    text-align: center ;
+    box-align:center;
+    padding: 5px;
+    width:60%;
+    margin:0 auto;
+}
+
+#ward th,td{
+    padding: 5px;
+}
+
+#add{
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-content: center; 
+    flex-wrap: wrap;
+}
+
+#content{
+        padding: 20px;
+        border: 2px solid black;
+        background-color: white;
+        border-radius:30px ;
+        display: flex;
+        /* 水平置中 */
+        justify-content: center;    
+        /* 垂直置中 */
+        align-content: center; 
+        flex-wrap: wrap;
+        font-size: 16px;
+}
+
+#warn_sign_red{
+    width:50px;
+    height:50px;
+    background-color:red;
+    border-radius:50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#warn_sign_green{
+    width:50px;
+    height:50px;
+    background-color:green;
+    border-radius:50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#patient{
+    text-align: center ;
+    box-align:center;
+    padding: 5px;
+    width:100%;
+    margin:0 auto;
+}
+
+#patient th,td{
+    padding: 5px;
+}
+
+#emotion{
+    text-align: center ;
+    box-align:center;
+    padding: 5px;
+    width:60%;
+    margin:0 auto;
+}
+
+#emotion th,td{
+    padding: 5px;
+}
+
+#content .my_camera{
+    margin:0 auto;
+}
+
+#btn{
+    text-align: center ;
+    vertical-align: middle;
+    margin:0 auto;
+}
+
+#btn button{
+    margin: 5px;
+    margin:0 auto;
+}
+
+#lo{
+    margin:0 auto;
+    text-align: center ;
+    font-size: 30px;
+}
+
+#patient_mod{
+    text-align: center ;
+}
+
+
+

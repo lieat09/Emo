@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+    background-image: url("../img/background.jpg");
+    font-family: "Noto Sans TC", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+.register {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgba(#000, 0.6);
+    border-radius: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 30px #000;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+.login {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgba(#000, 0.6);
+    border-radius: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 30px #000;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+  .btnGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .btn {
+    padding: 10px 50px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+.btnAccess {
+    background-color: #2bc42b;
+}
+.btnAccess :hover {
+    background-color: darken(#2bc42b, 10%);
+}
+
+.btnCancel {
+    background-color: #f08282;
+}
+.btnCancel:hover {
+    background-color: darken(#f08282, 10%);
+}
